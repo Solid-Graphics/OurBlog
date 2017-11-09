@@ -24,3 +24,18 @@ exclude:
   - gulpfile.js
   - package.json
   - yarn.lock
+  
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"
+            title: "default title"
+            author: "Team D"
+            img: ""
+            tags:
+            -
+                ""
