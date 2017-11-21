@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        teamD Dev Blog
+tagline:      A Development Blog for Miguel Silveira and Rui D'Orey
 baseurl:      "/teamD-devblog" 
 paginate:     1
 
 # About/contact
-author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+author:       
+  name:       teamD
+  url:        https://solid-graphics.github.io/teamD-devblog/ 
 
 # Gems
 gems:
