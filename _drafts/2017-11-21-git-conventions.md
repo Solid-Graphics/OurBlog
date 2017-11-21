@@ -4,7 +4,7 @@ title:  "Git Conventions"
 categories: main
 ---
 
-## Good branch naming in git
+## Branch naming in git
 
 1. Short and forthcoming names (ex:"new-view") and use always when possible lowercase names, as urls are by norm are also lowercase
 
@@ -15,7 +15,7 @@ categories: main
 4. If the branch is to be used by more than 1 person use the name followed by a person identifier (Ex: feature-1234/ms)
 
 
-## Good commit naming in git
+## Commit naming in git
 
 1. Each LOGICAL change should be its own commit, even if large. You can add 300 url fixes to a file and submit that as one commit, but if you make 1 url change and a file delete, that automatically promotes the second to its own commit.
 	
@@ -25,7 +25,7 @@ categories: main
 	
 4. You can use an unpushed branch as a store for commits as snapshots. Even so, use the all the previous points as reference
 	
-### Messages
+	#### Messages
 
 5. Avoid using the terminal to post commits since it incites bad practices
 
@@ -37,21 +37,24 @@ Any commit dependencies must be referenced A -> B
 7. When squashing commits, use --squash and --fixup to make your intents clear
 Use --autosquash for rebasing 
 	
-## Good Merging practices
+## Merging practices
 1. **_DO NOT REWRITE PUBLISHED HISTORY, EVER_** (Even more if is an importante branch)
    Extreme exceptions
-	a. non reviewable and single use branch
-	b. clean up
+  a. non reviewable and single use branch
+  b. clean up
 
 2. Keep history clean and simple, make sure to
-	a. keep it in accord to what was previously defined
-	b. rebase to parent branch
+  a. keep it in accord to what was previously defined
+  b. rebase to parent branch
 	
 3. Avoid fast forward if you have more than a single commit on your branch
 
 ### Misc
+
 1. Chose a method and stick with it, be consistant!
+
 2. Don't push bad or unfinished code
+
 3. Tag your code if needed, a do prefer light ones
-4. run git-gc to cleanup, git-prune to snip unreachable objects
-	and git-fsck to do consistency checks
+
+4. run git-gc to cleanup, git-prune to snip unreachable objects and git-fsck to do consistency checks
