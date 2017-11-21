@@ -25,7 +25,7 @@ categories: main
 	
 4. You can use an unpushed branch as a store for commits as snapshots. Even so, use the all the previous points as reference
 	
-	#### Messages
+#### Messages
 
 5. Avoid using the terminal to post commits since it incites bad practices
 
@@ -39,13 +39,15 @@ Use --autosquash for rebasing
 	
 ## Merging practices
 1. **_DO NOT REWRITE PUBLISHED HISTORY, EVER_** (Even more if is an importante branch)
-   Extreme exceptions
-  a. non reviewable and single use branch
-  b. clean up
+
+Extreme exceptions
+  
+  * non reviewable and single use branch
+  * clean up
 
 2. Keep history clean and simple, make sure to
-  a. keep it in accord to what was previously defined
-  b. rebase to parent branch
+  * keep it in accord to what was previously defined
+  * rebase to parent branch
 	
 3. Avoid fast forward if you have more than a single commit on your branch
 
