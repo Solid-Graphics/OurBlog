@@ -2,7 +2,14 @@
 layout: default
 title:  "Git Conventions"
 categories: main
+author: I-Iybr1d
 ---
+
+As a junior dev myself, the first steps to decent coding are hard and mischievous. Not only you need make good code, you need to present it decently as well.
+
+One of my first and biggest problems was the type of git conventions i begin using, that, at the time, was exactly none. This made my commits hard to understand and even harder to follow. Often there were times when i didn't knew what each commit did and had to check the file alterations just to check what had been done. Plus, i had the annoying habit of push commits that were a) incomplete or b) nothing to do with the branch i was on. After just a few days, i had to restart a repo just to see all tify up again.  
+
+Based on [Agis's Git Style Guide](https://github.com/agis/git-style-guide), the are the points i started to use:
 
 ## Branch naming in git
 
