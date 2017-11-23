@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Git Conventions"
 categories: main
 author: I-Iybr1d
